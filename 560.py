@@ -5,6 +5,7 @@ For example, given [10, 15, 3, 7] and k of 17, return true since 10 + 7 is 17.
 
 Bonus: Can you do this in one pass?
 '''
+
 def _BAD_sol(arr, k):
 	for i in range(0, len(arr) - 1):
 		for j in range(i + 1, len(arr)):
